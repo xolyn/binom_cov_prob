@@ -12,3 +12,5 @@ Brief process:
 4. Record the $True$'s (for if the parameter `prop`, namely $\pi$ is in the CI), separately.
 5. Repeated step 1-4 for `cnt` times.
 6. Calculate the coverage probabilities by calculating $\frac{True}{\verb|cnt|}$
+
+Learn more [here](https://en.wikipedia.org/wiki/Coverage_probability) 
