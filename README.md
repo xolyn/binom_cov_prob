@@ -11,4 +11,4 @@ Brief process:
 3. Calculate both Wald and Agresti-Coull confidence intervals, record them separately. Note that the Agresti-Coull confidence intervals is calculated as $$\hat{p}'\pm z_{1-\frac{\alpha}{2}}\sqrt{\frac{\hat{p}'(1-\hat{p}')}{n+4}}$$
 4. Record the $True$'s (for if the parameter `prop`, namely $\pi$ is in the CI), separately.
 5. Repeated step 1-4 for `cnt` times.
-6. Calculate the coverage probabilities by calculating $\frac{True}{cnt}$
+6. Calculate the coverage probabilities by calculating $\frac{True}{\verb|cnt|}$
